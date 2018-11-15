@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{027551fa-ed79-4cce-a905-f55fab18983d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{eef2b04f-4605-4a3a-ae76-669b49c8cf60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Shader">
+      <UniqueIdentifier>{0bf0ef49-0438-447b-8591-d1624a76fd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{75468d2f-197d-41aa-a357-a28a3a045f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\OBB">
+      <UniqueIdentifier>{89f75f63-48b1-4b91-a939-60a7779ae9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Cube">
+      <UniqueIdentifier>{9803ef8e-e3ce-4705-8efe-6d64f4b1ccce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Light">
+      <UniqueIdentifier>{af163a03-91ae-49eb-bf78-364bbe241e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Grid">
+      <UniqueIdentifier>{b965d852-ccb3-4b21-bb8c-29c1f1db25ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Texture">
+      <UniqueIdentifier>{65ce97d5-df8d-4969-8e81-eab224cb465d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Singletone">
+      <UniqueIdentifier>{eddb922e-c1be-4522-aff6-04e15a31ac75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Singletone\Keyboard">
+      <UniqueIdentifier>{3eeadd29-9c30-4889-9cfa-1bbd98f80a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Singletone\Device">
+      <UniqueIdentifier>{a5679b46-e1ce-4f4c-b249-4e9a499d34a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Singletone\Camera">
+      <UniqueIdentifier>{67273ba8-1d55-44f6-b87c-3b32bff41f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Singletone\TextureManager">
+      <UniqueIdentifier>{2d64d461-0278-40ce-9198-8e43e60c914c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\World">
+      <UniqueIdentifier>{744bbf43-5974-47bf-a8aa-26d7e7efdcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Player">
+      <UniqueIdentifier>{23df01bd-59ee-47d3-afb8-6852e0270b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\LightTest">
+      <UniqueIdentifier>{819afb18-47de-4e59-b1fc-24ce6aaecb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\FBX">
+      <UniqueIdentifier>{ae4c5f83-e8da-4a6d-984b-9ccaa7e34d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\FbxLoadTest">
+      <UniqueIdentifier>{f9fb172b-22f6-4255-a15d-eb3c40e61f70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DxDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>Framework\Singletone\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>MainGame\OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\Singletone\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>MainGame\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Framework\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Framework\Singletone\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>MainGame\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>MainGame\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayout.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Framework\Singletone\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Framework\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTest.h">
+      <Filter>MainGame\LightTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroFunctions.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>Framework\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoadTest.h">
+      <Filter>MainGame\FbxLoadTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Framework\Singletone\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>MainGame\OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\Singletone\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>MainGame\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Framework\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Framework\Singletone\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>MainGame\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>MainGame\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexLayout.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Framework\Singletone\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Framework\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LightTest.cpp">
+      <Filter>MainGame\LightTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Framework\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoadTest.cpp">
+      <Filter>MainGame\FbxLoadTest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3Dx.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="D3Dx.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="TestShader.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="LightShader.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="TextureShader.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="SimpleShader.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="FbxShader.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+    <FxCompile Include="FbxShader2.hlsl">
+      <Filter>Effect</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

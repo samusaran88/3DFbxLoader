@@ -1,0 +1,15 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl BouncerRimShader
+Ns 19.607843
+Ka 1.000000 1.000000 1.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.350042 BOUNCER_NORMALS.png
+map_Kd BOUNCER_eliteDIFF.png
+map_Ks BOUNCER_eliteSPEC.png

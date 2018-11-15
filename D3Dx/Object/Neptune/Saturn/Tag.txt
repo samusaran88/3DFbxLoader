@@ -1,0 +1,7 @@
+Game: Superdimension Neptune VS Sega Hard Girls
+Subject: Sega Saturn
+Copyright: Idea Factory, Compile Heart, Sega, Kei
+Model Ripper: Random Talking Bush
+Hosting Permissions: The Models Resource
+Notes: Special thanks to howfie for the original model importing script,
+       and to Boomer (布默) and Jayden / Haruhi-chan4ever for the extracted model files.
